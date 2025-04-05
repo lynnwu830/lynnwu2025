@@ -103,6 +103,32 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   margin-bottom: 8px;
   box-shadow: 2 2 #000000;
 }
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card0::before {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  content: "";
+  color: white;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  font-size: 2.8rem;
+  opacity: 0;
+  top: -20px;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card0:hover::before {
+  content: "AiH Design System";
+  color: white;
+  padding: 36px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  font-size: 2.8rem;
+  top: 100px;
+  opacity: 1;
+}
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card1::before {
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -213,6 +239,29 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   top: 100px;
   opacity: 1;
 }
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work0 {
+  background-image: url(./colorfor/dist/pic/Colorfor_banner-03.png);
+  background-size: cover;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work0 a {
+  text-decoration: none;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work0 .info0 {
+  pointer-events: none;
+  width: 80%;
+  position: absolute;
+  left: 8%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  opacity: 0;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work0:hover .info0 {
+  opacity: 1;
+  transition-duration: all 2s;
+}
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work1 {
   background-image: url(./colorfor/dist/pic/Colorfor_banner-03.png);
   background-size: cover;
@@ -236,6 +285,7 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   opacity: 1;
   transition-duration: all 2s;
 }
+
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work2 {
   background-image: url(./TaiwanMuseum/dist/pic/Homepage_02.png);
   background-size: cover;
