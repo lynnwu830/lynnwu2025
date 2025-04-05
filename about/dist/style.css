@@ -130,8 +130,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   margin-right: 10px;
 }
 .all.container-fluid .info .title {
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 1.15rem;
 }
 .all.container-fluid .info .group {
   display: flex;
