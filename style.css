@@ -1,0 +1,465 @@
+* {
+  font-family: "Lexend", sans-serif;
+  font-weight: regular;
+  letter-spacing: 1px;
+  color: #1b1b1b;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+nav {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+nav .container-fluid {
+  padding: 0px 20px;
+}
+nav .container-fluid ul.nav.navbar-nav {
+  padding: 4px 0px;
+}
+nav .container-fluid ul.nav.navbar-nav li {
+  margin-right: 20px;
+  margin: 10px;
+}
+nav .container-fluid ul.nav.navbar-nav a {
+  color: #1b1b1b;
+  text-decoration: none;
+}
+nav .container-fluid ul.nav.navbar-nav a:hover {
+  font-weight: bold;
+  color: #074aff;
+  transition-duration: all 2s;
+}
+
+.container-fluid {
+  max-width: 1440px;
+  padding: 20px;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+}
+.home .bg {
+  pointer-events: none;
+  width: 100%;
+  min-width: 600px;
+  background-size: cover;
+  position: fixed;
+  right: -10%;
+  z-index: -10;
+}
+.home .container-fluid#home_sectiom {
+  position: relative;
+  top: 10%;
+  font-size: 0px;
+  height: 100%;
+}
+.home .container-fluid#home_sectiom .row.left {
+  display: flex;
+  font-size: initial;
+  width: 100%;
+  position: fixed;
+  top: 350px;
+  pointer-events: none;
+}
+.home .container-fluid#home_sectiom .row.left h1 {
+  font-weight: 400;
+  line-height: 3.6rem;
+}
+.home .container-fluid#home_sectiom .row.left span {
+  color: #074aff;
+  font-weight: 600;
+}
+.home .container-fluid#home_sectiom .row.left .col-lg-4 {
+  top: 40%;
+}
+.home .container-fluid#home_sectiom .row.left .col-lg-4 h1, .home .container-fluid#home_sectiom .row.left .col-lg-4 p {
+  padding: 10px;
+}
+.home .container-fluid#home_sectiom .row.left .col-lg-4 p {
+  font-weight: 200;
+}
+.home .container-fluid#home_sectiom .row.left .col-lg-4 p:hover {
+  font-weight: bold;
+  color: #074aff;
+}
+.home .container-fluid#home_sectiom .row.right {
+  top: 80px;
+  left: 0%;
+  padding: 16px;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background-color: #aaa;
+  margin-bottom: 8px;
+  box-shadow: 2 2 #000000;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card1::before {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  content: "";
+  color: white;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  font-size: 2.8rem;
+  opacity: 0;
+  top: -20px;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card1:hover::before {
+  content: "ColorFor";
+  color: white;
+  padding: 36px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  font-size: 2.8rem;
+  top: 100px;
+  opacity: 1;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card2::before {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  content: "";
+  color: white;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  opacity: 1;
+  font-size: 2.8rem;
+  opacity: 0;
+  top: -20px;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card2:hover::before {
+  content: "UX Design for Taiwan Museum";
+  color: white;
+  padding: 36px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  opacity: 0.5;
+  font-size: 2.8rem;
+  top: 100px;
+  opacity: 1;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card3::before {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  content: "";
+  color: white;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  opacity: 1;
+  font-size: 2.8rem;
+  opacity: 0;
+  top: -20px;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card3:hover::before {
+  content: "Food to Food";
+  color: white;
+  padding: 36px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  opacity: 0.5;
+  font-size: 2.8rem;
+  top: 100px;
+  opacity: 1;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card4::before {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  content: "";
+  color: white;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  opacity: 1;
+  font-size: 2.8rem;
+  opacity: 0;
+  top: -20px;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card4:hover::before {
+  content: "Courtesy";
+  color: white;
+  padding: 36px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  opacity: 0.5;
+  font-size: 2.8rem;
+  top: 100px;
+  opacity: 1;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work1 {
+  background-image: url(./colorfor/dist/pic/Colorfor_banner-03.png);
+  background-size: cover;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work1 a {
+  text-decoration: none;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work1 .info1 {
+  pointer-events: none;
+  width: 80%;
+  position: absolute;
+  left: 8%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  opacity: 0;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work1:hover .info1 {
+  opacity: 1;
+  transition-duration: all 2s;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work2 {
+  background-image: url(./TaiwanMuseum/dist/pic/Homepage_02.png);
+  background-size: cover;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work2 a {
+  text-decoration: none;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work2 .info2 {
+  pointer-events: none;
+  width: 80%;
+  position: absolute;
+  left: 8%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  opacity: 0;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work2:hover .info2 {
+  opacity: 1;
+  transition-duration: all 2s;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work3 {
+  background-image: url(./fooftofood/dist/pic/f2f-02.png);
+  background-size: cover;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work3 a {
+  text-decoration: none;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work3 .info3 {
+  pointer-events: none;
+  width: 80%;
+  position: absolute;
+  left: 8%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  opacity: 0;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work3:hover .info3 {
+  opacity: 1;
+  transition-duration: all 2s;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work4 {
+  background-image: url(./courtesy/dist/pic/courtesy_title.jpg);
+  background-size: cover;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work4 a {
+  text-decoration: none;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work4 .info4 {
+  pointer-events: none;
+  width: 80%;
+  position: absolute;
+  left: 8%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  opacity: 0;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work4:hover .info4 {
+  opacity: 1;
+  transition-duration: all 2s;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .title {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  font-weight: 200;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .title h5 {
+  font-size: 1rem;
+}
+.home .footer {
+  position: relative;
+  margin-bottom: 64px;
+}
+.home .footer .middle {
+  margin-top: 72px;
+}
+.home .footer .middle .socialmedia {
+  padding: 0px 0px;
+  margin-top: 24px;
+  position: relative;
+}
+.home .footer .middle .socialmedia a.i {
+  font-size: 1rem;
+  padding: 0px 12px;
+  color: #1b1b1b;
+  text-decoration: none;
+}
+.home .footer .middle .socialmedia a.i:hover {
+  color: #074aff;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+.home .footer .middle .socialmedia a {
+  text-decoration: none;
+  color: #1b1b1b;
+}
+.home .footer .middle h4 {
+  font-size: 1rem;
+  color: #1b1b1b;
+}
+
+@media screen and (max-width: 989.98px) {
+  .home .bg {
+    pointer-events: none;
+    width: 1500px;
+    background-size: cover;
+    position: fixed;
+    top: 450px;
+    left: -300px;
+    z-index: -10;
+    opacity: 1;
+  }
+
+  #home_sectiom.container-fluid .row.left {
+    text-align: center;
+    width: 100%;
+    padding: 16px;
+    margin-top: 72px;
+    margin-bottom: 24px;
+    position: absolute !important;
+    top: 0px !important;
+  }
+  #home_sectiom.container-fluid .row.right {
+    padding: 0px !important;
+    width: 100%;
+    top: 300px !important;
+    position: relative;
+    margin: 0px;
+  }
+  #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    background-color: #333;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #home_sectiom.container-fluid .row.left {
+    text-align: center;
+    width: 100%;
+    padding: 16px;
+    margin-top: 72px;
+    margin-bottom: 24px;
+    position: absolute !important;
+    top: 0px !important;
+  }
+  #home_sectiom.container-fluid .row.right {
+    padding: 40px !important;
+    width: 100%;
+    top: 300px !important;
+    position: relative;
+    margin: 0px;
+  }
+  #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    background-color: #333;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  #home_sectiom.container-fluid .row.left {
+    left: 8px;
+  }
+  #home_sectiom.container-fluid .row.left .col-lg-4 h1 {
+    font-weight: 400;
+    line-height: 2.6rem;
+    padding: 0px;
+  }
+  #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info1, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info2, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info3, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home img.bg {
+    opacity: 0;
+  }
+}
+@keyframes scrolldown {
+  0% {
+    transform: translateX(-140px);
+    opacity: 0.5;
+  }
+  45% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 0.5;
+    transform: translateX(-140px);
+  }
+}
+@keyframes rotate {
+  0% {
+    scale: 1;
+    transform: translateY(0px) translateX(0px) rotate(0deg);
+  }
+  25% {
+    scale: 3;
+    transform: translateY(-150px) translateX(0px) rotate(90deg);
+  }
+  50% {
+    scale: 0.5;
+    transform: translateY(300px) translateX(90px) rotate(180deg);
+  }
+  75% {
+    scale: 2.5;
+    transform: translateY(0px) translateX(-90px) rotate(270deg);
+  }
+  100% {
+    scale: 1;
+    transform: translateY(-150px) translateX(0px) rotate(360deg);
+  }
+}

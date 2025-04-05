@@ -1,0 +1,462 @@
+$color_blue: #133357
+$color_yellow: #FCD768
+
+@mixin before
+  content: " "
+  display: block
+  position: absolute
+  top: 35%
+  left: -1px
+  width: 0px
+  height: 18px
+  opacity: 1
+  z-index: -1
+  background-color: white
+  transition-duration: 0.3s
+  transform: rotate(2deg)
+  
+*
+  font-family: 'Gidugu', sans-serif,'Abril Fatface','Noto Sans TC', sans-serif
+  font-weight: regular
+  letter-spacing: 1px
+  color: $color_blue
+  
+
+  // border: solid 1px #666
+  box-sizing: border-box
+  position: relative
+  // debug//
+  header
+    display: none
+  section
+    display: none
+  // .section#section_portion1, .section#section_portion2, .section#section_portion3, .section#section_portion4, .section#section_portion5
+  //   display: none
+  
+body,html
+  margin: 0
+  padding: 0
+  
+  
+  
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+  
+.fixed_center
+  position: fixed
+  left: 50%
+  top: 50%
+  transform: translate(-50%,-50%)
+  
+.wh_cover
+  width: 100vw
+  height: 100vh
+  
+.see
+  width: 100vw
+  height: 100vh
+  z-index: 3
+  // background-color: #fff
+  border: solid 55px rgba(#1D2E51,1)
+  pointer-events: none
+
+.section
+  margin-bottom: 50px
+  
+  
+
+.section#section_portion1
+  margin-top: 50px
+  .photo.photo1
+    width: 100vw
+    height: 70vh
+    // background-color: $color_blue
+    background-image: url(https://upload.cc/i1/2020/07/14/mBs4Xw.jpg)
+    background-size: cover
+    background-position: 0  
+  .container
+    max-width: 100vw
+    
+  .row
+    display: flex
+    align-items: flex-end
+    margin-top: 20px
+  .left
+    padding-left: 70px
+    h3
+      margin-top: -10px
+      font-size: 40px
+  .right
+    text-align: right
+    position: relative
+    padding-right: 70px
+    h5
+      line-height: 20px
+      bottom: 0
+      font-family: 微軟正黑體
+      font-size: 14px
+      opacity: 0.5
+      
+.section#section_portion2
+  .photo.photo2
+    background-image: url(https://upload.cc/i1/2020/07/14/9kjBcS.jpg)
+    background-size: cover
+    background-position: 0 
+    
+
+.section#section_portion3
+  .container
+    .row
+      display: flex
+      align-items: center
+      margin-top: 20px
+      .left
+        text-align: right
+        padding-right: 30px
+        h1
+          font-size: 55px
+      .right
+        margin-left: 50px
+        h5
+          line-height: 20px
+          bottom: 0
+          font-family: 微軟正黑體
+          font-size: 14px
+          opacity: 0.9
+          
+  .container, .blocks
+    margin-top: 20px
+    max-width: 1920px
+    font-size: 0px
+    box-sizing: border-box
+    .block
+      display: inline-block
+      box-sizing: border-box
+      width: 49%
+      font-size: 0px
+      height: 200px
+      background-color: #333
+      border: solid 2px white
+      margin: 0
+      padding: 0
+      background-size: cover
+    .a, .b, .e, .f
+      width: 25%
+      height: 0
+      padding-bottom: 25%
+    .c, .d
+      width: 49%
+      height: 0
+      padding-bottom: 25%
+    .a
+      background-image: url(https://upload.cc/i1/2020/07/14/0fQYdI.jpg)
+    .b
+      background-image: url(https://upload.cc/i1/2020/07/14/JbsTSC.jpg)
+    .c
+      background-image: url(https://upload.cc/i1/2020/07/14/nfgT91.gif)
+    .d
+      background-image: url(https://upload.cc/i1/2020/07/14/ws2U7u.gif)
+    .e
+      background-image: url(https://upload.cc/i1/2020/07/14/zuhWsV.jpg)
+    .f
+      background-image: url(https://upload.cc/i1/2020/07/14/0RGcTe.jpg)
+    
+        
+      
+.section#section_portion4
+  margin-top: 150px
+  // z-index: 5
+  a
+    text-decoration: none
+  .web_btn
+    width: 200px
+    height: 40px
+    position: absolute
+    top: 80%
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+    font-size: 24px
+    color: white
+    border: solid 3px white
+    border-radius: 20px
+    text-align: center
+    z-index: 10
+    &:hover
+      background-color: #fff
+      color: $color_blue
+      border: solid 3px white
+      cursor: pointer
+    
+    
+  .photo.photo3, .photo.photo3_cover
+    width: 100vw
+    height: 0
+    padding-bottom: 48%
+    background-image: url(https://upload.cc/i1/2020/07/14/HfalUA.gif)
+    background-size: contain
+  .photo.photo3_cover
+    position: absolute
+    z-index: 1
+    background-image: none
+    background-color: rgba($color_blue, 0.85)
+    opacity: 0
+    &::before
+      z-index: 6
+      content: "Interactive Website"
+      display: block
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translateX(-50%) translateY(-50%)
+      opacity: 1
+      color: white
+      font-size: 85px
+      line-height: 70px
+      text-align: center
+    
+.section#section_portion5
+  z-index: 2
+  margin-top: 150px
+  position: relative
+  .container
+    position: relative
+    .blocks
+      max-width: 1200px
+      right: auto
+      left: auto
+      .block
+        display: inline-block
+        box-sizing: border-box
+        font-size: 0px
+        background-color: #333
+        border: solid 4px white
+        margin: 0
+        padding: 0
+        background-size: cover
+      .a, .b, .c, .d
+        width: 50%
+        height: 0
+        padding-bottom: 30%
+        margin-right: -4px
+        margin-top: -8px
+      .e
+        width: 100%
+        height: 0
+        padding-bottom: 60%
+        margin-top: -8px
+      .a
+        background-image: url(https://upload.cc/i1/2020/09/04/4lCJmw.jpg)
+      .e
+        background-image: url(https://upload.cc/i1/2020/07/15/mlEBSv.jpg)
+      .c
+        background-image: url(https://upload.cc/i1/2020/07/15/QcfWC0.jpg)
+      .d
+        background-image: url(https://upload.cc/i1/2020/07/15/fWOC5i.jpg)
+      .b
+        background-image: url(https://upload.cc/i1/2020/07/15/HxtEe6.jpg)
+  // .title
+  //   position: relative
+  //   right: 0px
+  //   bottom: 0px
+  
+.footer
+  .container-fluid
+    position: relative
+    left: auto
+    right: auto
+    max-width: 1200px
+    top: -100px
+    margin-bottom: 50px
+    text-align: center
+    font-size: 18px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    justify-content: space-between
+    .next
+      display: flex
+      align-items: center
+      text-align: center
+      h1
+        font-size: 20px
+        cursor: pointer
+      .arrow_btn
+        margin-left: 10px
+        align-items: center
+        width: 30px
+        height: 25px
+        white-space: nowrap
+        font-size: 20px
+        text-align: right
+        overflow: hidden
+        top: 5px
+        &::before
+          content: " → →"
+          position: absolute
+          width: 30px
+          height: 30px
+          // border: solid red 1px
+          transform: translateX(-50px)
+          transition: ease-in-out 0.8s
+
+      &:hover
+        .arrow_btn
+          &::before
+            transform: translateX(-20px)
+            transition: ease-in-out 0.5s
+    .left
+      margin-right: 200px
+      .arrow_btn
+        transform: rotate(180deg)
+        
+    .right
+      margin-left: 200px
+      .arrow_btn
+        top: 7px
+        margin-right: 10px
+
+    .middle
+      .socialmedia_bottom
+        padding: 0px 0px
+        position: relative
+        a.i
+          padding: 0px 15px
+          color: $color_blue
+          text-decoration: none
+      a
+        text-decoration: none
+        color: $color_blue
+      h4
+        border-bottom: 1px
+        border: solid 1px white
+        font-size: 10px
+        opacity: 0.7
+      hr
+        max-width: 130px
+        border-bottom: solid 0.1px $color_blue
+        opacity: 0.5
+        margin-top: -12px
+        margin-bottom: 0px
+
+
+    
+  
+.socialmedia
+  display: flex
+  flex-direction: column
+  width: 20px
+  text-align: center
+  font-size: 15px
+  position: fixed
+  right: 20px
+  top: 50%
+  transform: translateY(-50%)
+  z-index: 3
+  a.i
+    text-decoration: none
+    padding: 5px 0px
+    color: white
+    // text-decoration: none
+  
+    
+.shownow
+  width: 700px
+  text-align: center
+  font-size: 22px
+  position: fixed
+  left: -320px
+  top: 50%
+  transform: translateY(-50%) rotate(90deg)
+  color: white
+  transition-duration: 0.7s
+  z-index: 3
+.homepage_btn
+  width: 60px
+  height: 60px
+  position: fixed
+  left: 40px
+  top: 40px
+  color: $color_blue
+  z-index: 3
+  font-size: 28px
+  line-height: 22px
+  border: solid 3px $color_blue
+  background-color: #fff
+  padding: 5px
+  box-shadow: -5px -5px 0px $color_yellow
+  
+
+
+
+  
+
+@media screen and (max-width: 800px)
+  .section#section_portion1
+    margin-top: -50px
+    .row
+      display: initial
+      text-align: right
+      .left
+        padding-left: initial
+      .right
+        margin-top: 30px
+        padding-right: 15px
+      
+  .section#section_portion3
+    .container
+      .row
+        display: initial
+        .left
+          text-align: left
+          padding-right: 30px
+        .right
+          margin-left: initial
+    .blocks
+      .a, .b
+        width: 49%
+        height: 0
+        padding-bottom: 50%
+      .c
+        width: 100%
+        height: 0
+        padding-bottom: 50%
+      .d,.e, .f
+        display: none
+        
+  .section#section_portion4
+    .photo.photo3_cover
+      &::before
+        font-size: 35px
+        line-height: 30px
+      
+      
+  .section#section_portion5
+    .container
+      display: relative
+      .blocks
+        .a, .b, .c , .d, .e
+          width: 100%
+          height: 0
+          padding-bottom: 65%
+          border: 20px solid white
+      
+  .footer
+    margin-bottom: -30px
+    padding-bottom: 0
+    .next.left, .next.right
+      margin: 0
+      
+        
+        
+        
+  .see, .shownow, .socialmedia
+    display: none
+  
+// @media screen and (max-width: 400px)
+//   .b,.c,.d,.e,.f
+//     width: 100%
+//   .sblock
+//     display: block
+//     width: 100%
+//     margin-bottom: 10px
+

@@ -1,0 +1,104 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    title LYNN WU
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Noto+Sans+TC:wght@100;400;700;900&family=Squada+One&display=swap')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Notable&display=swap')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Gidugu&family=Notable&display=swap')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@100;300;400;500&display=swap')
+    link(rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;700;900&display=swap")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css")
+
+    link(rel='stylesheet' href='./style.css')
+ 
+  body
+    // partial:index.partial.html
+    nav.navbar.navbar-expand-lg.navbar-light.fixed-top
+      .container-fluid.d-flex
+        a.navbar-brand(href="../../index.html") LYNN WU
+        button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarNavAltMarkup.collapse.navbar-collapse.justify-content-end
+          ul.nav.navbar-nav
+            li
+              a(href='../../index.html') WORKS +
+            
+            li
+              a(href='./index.html') ABOUT +
+
+
+
+
+    .all.container-fluid
+      img.bg(src='./pic/bg_blue.png' alt="Jia Ling Wu")
+      //img.bg(src='./pic/banner-02-03.png')
+      .info.row.d-flex.justify-content-between
+        .col-lg-3.col-md-12.col-sm-12
+          img.profile(src='./pic/0001.jpg')
+
+          a.next.right(href="./LynnResume2022.pdf" download="Lynn Resume.pdf")
+              .arrow_btn 
+              h1 Resume 
+
+          <br>
+          <br> 
+
+        .col-lg-5.col-md-12.col-sm-12 
+          p Hello! I'm Lynn, a designer based in Taipei, Taiwan focusing on user experience design and human computer interaction.<br><br> I passionate about working with people from different fields, sharing skills and ideas together to explore more design possibilities.
+          <br>
+          <br>
+          <br>
+          
+          p.title Education
+          .group
+            p.grid.year <b>2020 - 2022
+            p.grid.name <b>National Taipei University of Technology</b><br>M.A School of Interaction Design
+
+          .group
+            p.grid.year <b>2015 - 2019
+            p.grid.name <b>University of Taipei</b><br>Department of Learning and Materials Design
+
+
+
+          <br>
+
+          p.title Experience
+          .group
+            p.grid.year <b>2022
+            p.grid.name <b>Freelancer</b><br>UX Designer + Visual Designer
+          .group
+            p.grid.year <b>
+            p.grid.name <b>City Science Lab Taipei Tech</b><br>UI UX Designer
+
+          .group
+            p.grid.year <b>2020
+            p.grid.name <b>Lab of Tangible & Intangible Interaction Design</b><br>Research Assistant
+          
+          .group
+            p.grid.year <b>2019
+            p.grid.name <b>Flytech Technology</b><br>Product Marketing — Visual Designer
+          .group
+            p.grid.year <b>2017
+            p.grid.name <b>Design For Taiwan</b><br>Design Intern
+      
+
+      .section.footer
+        .middle
+          h4.d-flex.justify-content-center Let's create together 👋
+          .socialmedia.d-flex.justify-content-center
+            a.i.fa-brands.fa-facebook-f(href="https://www.facebook.com/profile.php?id=100002447347560" target="_blank")
+            a.i.fa-solid.fa-envelope(href="mailto:Lynnwu830@gmail.com")
+            a.i.fa-brands.fa-linkedin-in(href="https://www.linkedin.com/in/jia-ling-wu-350723192/" target="_blank")
+          
+
+
+    // partial
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js')
+    script(src='./script.js')
+    
