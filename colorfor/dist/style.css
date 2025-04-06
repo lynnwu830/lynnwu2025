@@ -164,7 +164,6 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   transition: ease-in-out 0.5s;
 }
 .all.container-fluid .footer .relativework .left {
-  opacity: 0;
   margin-right: 200px;
   justify-content: left;
 }

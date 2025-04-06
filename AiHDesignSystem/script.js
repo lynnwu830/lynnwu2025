@@ -27,7 +27,7 @@ $(function(){
     .animate("transitionDelay","2000")
            
   })
-})
+});
 
 $(function(){
   $(".btn.btn1").click(function(){
@@ -35,7 +35,7 @@ $(function(){
     .animate("transitionDelay","2000")
            
   })
-})
+});
 
 
 $(function(){
@@ -50,7 +50,10 @@ $(function(){
     }
   })
   });
-
+  
+$(window).load(function() {
+  $("#before_after").twentytwenty();
+});
 
 
 // $(window).scroll(function(evt){

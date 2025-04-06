@@ -63,7 +63,11 @@
           <h5>✅ 完成27種基礎元件（含 Button、Input、Dialog 等）</h5>
           <h5>✅ 初版設計系統已導入2個新專案，提升設計與開發一致性</h5>
         </div>
-        <div class="col-lg-8 col-md-12"><img class="pic auto" src="./pic/noneimage.png"></div>
+        <!--.col-lg-8.col-md-12
+        img.pic.auto(src="./pic/noneimage.png")
+        
+        
+        -->
       </div>
       <div class="section section3 row d-flex justify-content-center">
         <div class="col-lg-8 col-md-12">
@@ -71,27 +75,29 @@
           <p>研華智慧醫療產品橫跨病房、診間、手術室等多元場域，裝置尺寸與操作情境各異，加上醫院客製化需求高，導致歷來產品風格不一、元件繁雜，且缺乏專責前端樣式維護團隊，使 UI 難以統一與延續。</p>
           <p>為解決設計樣式碎片化問題，並提升設計與開發效率，我主導規劃並建置 AiH 專屬設計系統，期望作為產品設計的共同語言，建立可延續的設計架構。</p>
         </div>
-        <div class="col-lg-8 col-md-12"><img class="pic auto" src="./pic/noneimage.png"></div>
+        <!--.col-lg-8.col-md-12
+        img.pic.auto(src="./pic/noneimage.png")
+        
+        -->
       </div>
       <div class="section section4 row d-flex justify-content-center">
         <div class="col-lg-8 col-md-12">
           <h2>建置歷程</h2>
           <p>為了建立一套實用且能長期維護的設計系統，我們從盤點現況開始，整理現有產品的元件與樣式，同時參考其他設計系統的架構邏輯，逐步建立出一套適合團隊的系統規則與視覺基礎。這個過程不只是釐清過去的使用方式，也是在為未來的擴充與共用做好準備。</p>
         </div>
-      </div>
-      <div class="section section4 row d-flex justify-content-between">
-        <div class="col-lg-12 col-md-12"><img class="pic auto" src="./pic/noneimage.png"></div>
-      </div>
-      <div class="section section5 row d-flex justify-content-between">
-        <div class="col-lg-3 col-md-12">
+        <div class="col-lg-8 col-md-12">
           <h5>Step 1 前期研究與系統規劃</h5>
           <p> 1. 參考多套主流設計系統（Material Design、Ant Design、IBM、Atlassian），從命名邏輯、分類方式、應用模式進行分析，萃取適合 AiH 系列產品的元件架構與命名邏輯。</p>
           <p> 2. 因應產品橫跨不同尺寸裝置，評估後決定設計系統以「Web 裝置」為起點，後續再依此延伸 Kiosk、Whiteboard 等大型裝置。</p>
         </div>
-        <div class="col-lg-8 col-md-12"><img class="pic auto" src="./pic/各家系統比較.png"><img class="pic auto" src="./pic/framework.png"></div>
-      </div>
-      <div class="section section6 row d-flex justify-content-between">
-        <div class="col-lg-3 col-md-12">
+        <div class="col-lg-8 col-md-12"><img class="pic auto" src="./pic/各家系統比較.png">
+          <p class="caption">▲ 比較各家設計系統的建置邏輯</p><br>
+<br><img class="pic auto" src="./pic/framework.png">
+          <p class="caption">▲ AiH 設計系統架構分為基礎樣式(Foundation)+搭配不同裝置元件庫(Library)以進行維護</p><br>
+<br>
+<br>
+        </div>
+        <div class="col-lg-8 col-md-12">
           <h5>Step 2 建立基礎視覺樣式</h5>
           <p> 1. 定調風格為「簡潔、中性、親和」，以藍白低彩度為主，避免過度裝飾，聚焦資訊傳遞與狀態提示，提升醫療場域的判讀效率。</p>
           <p> 2. 視覺基礎項目建置內容：
@@ -101,31 +107,40 @@
             <li>RWD 斷點：訂定 Web 介面之大中小尺寸斷點佈局規範。</li>
           </p>
         </div>
-        <div class="col-lg-8 col-md-12"><img class="pic" src="./pic/noneimage.png"></div>
-      </div>
-      <div class="section section6 row d-flex justify-content-between">
-        <div class="col-lg-3 col-md-12">
+        <div class="col-lg-8 col-md-12"><img class="pic" src="./pic/樣式.png">
+          <p class="caption">▲ Color token 基礎樣式表，支援light mode/ dark mode</p><br>
+<br>
+<br>
+        </div>
+        <div class="col-lg-8 col-md-12">
           <h5>Step 3 元件盤點與命名定義</h5>
-          <p> 1. 依據產品對應裝置進行元件盤點，建立元件使用總表，並依元件組成層級（基礎 → 複合）分為五階段建置。</p>
-          <p> 2. 透過設計團隊貼標工作坊統整命名歧異，達成元件命名共識。</p>
+          <p> 1. 透過設計團隊貼標工作坊統整命名歧異，達成元件命名共識。</p>
+          <p> 2. 依據產品對應裝置進行元件盤點，建立元件使用總表，並依元件組成層級（基礎 → 複合）分為五階段建置。</p>
         </div>
-        <div class="col-lg-8 col-md-12"><img class="pic" src="./pic/noneimage.png"></div>
-      </div>
-      <div class="section section6 row d-flex justify-content-between">
-        <div class="col-lg-3 col-md-12">
+        <div class="col-lg-8 col-md-12"><img class="pic auto" src="./pic/貼標.png">
+          <p class="caption">▲ 元件貼標工作坊</p><br>
+<br><img class="pic auto" src="./pic/盤點清單.png">
+          <p class="caption">▲ 各產品的元件使用現況</p><br>
+<br>
+<br>
+        </div>
+        <div class="col-lg-8 col-md-12">
           <h5>Step 4 元件變體與規範設計</h5>
-          <p> 1. 依據實際應用樣式設計元件變體，兼顧簡潔性與複用性。</p>
-          <p> 2. 參考主流設計系統變體邏輯，提升新元件延展與導入效率。</p>
-          <p> 3. 制定使用準則與限制，確保設計師間協作可保持一致性。</p>
+          <p>1. 製作設計系統元件時，元件複用性為我們最主要的考量，盡量以簡單的元件變體來包含現有元件的應用樣式；在變體的分類上，以目前我們現有的元件應用方式為主，但同時也會參考其他主流設計系統的變體組成邏輯，來讓新元件更方便使用。</p>
+          <p>2. 使用規範上，會根據現有的使用情境，歸納出元件的建議使用指南與限制，確保各元件在不同情境與不同設計師的使用下，能保有一致的操作體驗。</p>
         </div>
-        <div class="col-lg-8 col-md-12"><img class="pic" src="./pic/noneimage.png"></div>
-      </div>
-      <div class="section section6 row d-flex justify-content-between">
-        <div class="col-lg-3 col-md-12">
+        <div class="col-lg-8 col-md-12"><img class="pic auto" src="./pic/流程.png">
+          <p class="caption">▲ 元件建置與設計文欓撰寫過程</p><br>
+<br>
+<br>
+        </div>
+        <div class="col-lg-8 col-md-12">
           <h5>Step 5 初版導入與應用成效</h5>
           <p> 目前初版AiH設計系統已導入近期2項新專案，開發端對Color Token特別有感，有助於前端樣式維護；設計端則透過元件共用減少重工，提升作業效率與產出一致性。</p>
         </div>
-        <div class="col-lg-8 col-md-12"><img class="pic" src="./pic/noneimage.png"></div>
+        <div class="col-lg-8 col-md-12"><img class="pic" src="./pic/黑白模式.png">
+          <p class="caption">▲ AiH 新版設計系統</p>
+        </div>
       </div>
       <div class="section section7 row d-flex justify-content-center">
         <div class="col-lg-8 col-md-12">
@@ -161,7 +176,7 @@
           <div class="col-sm-6"><a class="next left" href="">
               <h1>Previous Work</h1>
               <div class="arrow_btn"> </div></a></div>
-          <div class="col-sm-6"><a class="next right" href="../../TaiwanMuseum/dist/index.html">
+          <div class="col-sm-6"><a class="next right" href="../../colorfor/dist/index.html">
               <div class="arrow_btn"> </div>
               <h1>Next Work </h1></a></div>
         </div>

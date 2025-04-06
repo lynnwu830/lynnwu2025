@@ -464,7 +464,7 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
     line-height: 2.6rem;
     padding: 0px;
   }
-  #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info1, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info2, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info3, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info4 {
+  #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info0, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info1, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info2, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info3, #home_sectiom.container-fluid .row.right .col-lg-6.offset-lg-6 .work .info4 {
     display: none;
   }
 }
