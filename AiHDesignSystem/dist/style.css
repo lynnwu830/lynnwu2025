@@ -91,6 +91,9 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
 .all.container-fluid .section p {
   margin-top: 12px;
 }
+.all.container-fluid .section li {
+  line-height: 28px;
+}
 .all.container-fluid .section .video {
   margin-top: 24px;
   width: 100%;

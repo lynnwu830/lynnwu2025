@@ -33,11 +33,11 @@ html(lang='en')
 
 
     .all.container-fluid
-      img.bg(src='./pic/Colorfor_banner-08.png')
+      img.bg(src='./pic/noneimage.png')
       .info.row
         .col-lg-6.col-md-12.col-sm-12
           h4 AiH Design System 
-          p 2024 - Design Opt
+          p Design Opt/ 
         .col.rwd
           h6 Role 
           p Project Owner
@@ -51,73 +51,108 @@ html(lang='en')
       .section.section2.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
           h2 Overview
-          p 為了讓研華智慧醫療產品打造一致、可延展的設計語言，我們於2024年6月開始啟動設計系統建置，設計一套符合醫療場景需求、具彈性擴展性的 UI Design System。此專案由我主導，與另外兩位設計師協同合作，從前期架構規劃、視覺基礎建置、元件系統設計，到實際導入專案與跨部門協作，逐步奠定設計與開發對齊的基礎。
+          p 為了幫研華智慧醫療產品打造一致、可延展的設計語言，我們於2024年6月開始啟動設計系統建置，設計一套符合醫療場景需求、具彈性擴展性的 UI Design System。
+          h5 ✅ 建立設計系統基礎視覺樣式，支援 RWD 與 Dark Mode
+          h5 ✅ 完成27種基礎元件（含 Button、Input、Dialog 等）
+          h5 ✅ 初版設計系統已導入2個新專案，提升設計與開發一致性
         .col-lg-8.col-md-12
-          iframe.video(src='https://www.youtube.com/embed/7O7sCWZtLfU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+          img.pic.auto(src="./pic/noneimage.png")
 
         
       .section.section3.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
-          h2 Understanding the Problem
-          p 色彩能夠提供更多視覺線索來協助並引導使用者進行網頁瀏覽，但對於色盲使用族群而言，因他們無法分辨某些特定色相，導致在瀏覽網頁時，可能會發生內容判讀困難或是遺漏資訊等等網頁檢索問題。雖然目前有無障礙網頁指導原則針對色彩對比度進行規範，但因爲色盲者的色覺感知狀態會隨著色盲類型的不同而有差異，導致單一的配色並不適用於所有類型的色盲者。因此目前單靠此規範還不能真正有效改善色盲使用者的網頁觀看問題。目前已有許多用以提升色盲使用者網頁色彩觀看的輔助工具，大多是套用網頁色彩濾鏡的方式，但這個方式需要使用者在每次操作網頁時自行開啟設定，除了在無形中會增加使用者的網頁操作步驟，也可能對他們的使用心理造成負面影響。
-          p 基於以上問題與背景，本研究希望能夠為色盲使用者，設計一套更符合他們觀看需求的網頁色彩自動切換系統。
+          h2 專案啟動背景
+          p 研華智慧醫療產品橫跨病房、診間、手術室等多元場域，裝置尺寸與操作情境各異，加上醫院客製化需求高，導致歷來產品風格不一、元件繁雜，且缺乏專責前端樣式維護團隊，使 UI 難以統一與延續。
+          p 為解決設計樣式碎片化問題，並提升設計與開發效率，我主導規劃並建置 AiH 專屬設計系統，期望作為產品設計的共同語言，建立可延續的設計架構。
         .col-lg-8.col-md-12
-          img.pic.auto(src="./pic/pic-01-08.png")
+          img.pic.auto(src="./pic/noneimage.png")
 
       .section.section4.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
-          h2 Solution and Prototype Design
-          p 本研究提出了一套能夠為使用者自動切換合適網頁配色的系統，此系統由兩部分組成，分別是具有篩檢使用者色覺狀態的創新網頁驗證碼，以及合適不同色盲類型的網頁前端色版設計，以下將分為兩部分進行說明。
-        .col-lg-8.col-md-12
-          img.pic.auto(src='./pic/Colorfor_pic3-02-07.png')
+          h2 建置歷程
+          p (一段歷程簡述)
+
+      .section.section4.row.d-flex.justify-content-between
+        .col-lg-12.col-md-12
+          img.pic.auto(src="./pic/noneimage.png")
 
       .section.section5.row.d-flex.justify-content-between
         .col-lg-3.col-md-12
-          h5 1. 結合色盲篩檢功能的驗證碼
-          p  會選擇驗證碼作為篩檢使用者色盲類型的機制，是考量到驗證碼的出現情境與判讀方式，再加上使用者對他的操作方式是熟悉的，因此我將色盲檢測版的設計樣式與驗證碼結合，在不知不覺中，將篩檢色盲的功能藏在之中。透過線上色盲模擬濾鏡，可以看到在4種不同色覺狀態下，驗證碼可以得出4組不同的答案。
+          h5 Step 1 前期研究與系統規劃
+          p  1. 參考多套主流設計系統（Material Design、Ant Design、IBM、Atlassian），從命名邏輯、分類方式、應用模式進行分析，萃取適合 AiH 系列產品的元件架構與命名邏輯。
+          p  2. 因應產品橫跨不同尺寸裝置，評估後決定設計系統以「Web 裝置」為起點，後續再依此延伸 Kiosk、Whiteboard 等大型裝置。
         .col-lg-8.col-md-12
-          img.pic.auto(src="./pic/pic-03.gif")
+          img.pic.auto(src="./pic/noneimage.png")
 
       .section.section6.row.d-flex.justify-content-between
         .col-lg-3.col-md-12
-          h5 2. 合適於不同色盲類型的網頁配色
-          p  本專案參考CUD色彩設計建議指南當中對於不同種色盲者的選色建議，並透過線上色盲模擬濾鏡，以trail-and-error的方式，針對網頁當中各種以色彩做為視覺提示的部分，找出各類型色盲使用者可能產生判讀問題的點，進而為不同種的色盲使用者調整更符合他們觀看的網頁配色，最後再以CSS :root的方式將4套色彩配置整合到網頁前端中。
+          h5 Step 2 建立基礎視覺樣式
+          p  1. 定調風格為「簡潔、中性、親和」，以藍白低彩度為主，避免過度裝飾，聚焦資訊傳遞與狀態提示，提升醫療場域的判讀效率。
+          p  2. 視覺基礎項目建置內容：
+              li 色彩：制定色彩應用規範與色彩 Token 命名架構，納入 Dark Mode 設計。
+              li 圖標：統一圖標繪製風格，改採圓角、線性樣式。
+              li 字體：彙整各產品字體樣式並標準化。
+              li RWD 斷點：訂定 Web 介面之大中小尺寸斷點佈局規範。
+
         .col-lg-8.col-md-12
-          img.pic(src="./pic/pic-04-10.png")
-      
+          img.pic(src="./pic/noneimage.png")
+
+      .section.section6.row.d-flex.justify-content-between
+        .col-lg-3.col-md-12
+          h5 Step 3 元件盤點與命名定義
+          p  1. 依據產品對應裝置進行元件盤點，建立元件使用總表，並依元件組成層級（基礎 → 複合）分為五階段建置。
+          p  2. 透過設計團隊貼標工作坊統整命名歧異，達成元件命名共識。
+
+        .col-lg-8.col-md-12
+          img.pic(src="./pic/noneimage.png")
+
+      .section.section6.row.d-flex.justify-content-between
+        .col-lg-3.col-md-12
+          h5 Step 4 元件變體設計與使用規範
+          p  1. 依據實際應用樣式設計元件變體，兼顧簡潔性與複用性。
+          p  2. 參考主流設計系統變體邏輯，提升新元件延展與導入效率。
+          p  3. 制定使用準則與限制，確保設計師間協作可保持一致性。
+
+        .col-lg-8.col-md-12
+          img.pic(src="./pic/noneimage.png")
+
+      .section.section6.row.d-flex.justify-content-between
+        .col-lg-3.col-md-12
+          h5 Step 5 初版導入與應用成效
+          p  目前初版AiH設計系統已導入近期2項新專案，開發端對Color Token特別有感，有助於前端樣式維護；設計端則透過元件共用減少重工，提升作業效率與產出一致性。
+
+        .col-lg-8.col-md-12
+          img.pic(src="./pic/noneimage.png")
+
       .section.section7.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
-          h2.hightlight “ 結合以上的兩個設計，就是本研究所提出完整的「自動色彩切換」系統 ”
+          h2.hightlight “ 設計系統並非一次性專案，而是持續演進的架構工具 ”
 
       .section.section8.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
-          h5 自動色彩切換系統流程
-          p 使用者在進入網頁入口時，透過輸入網頁驗證碼，就可以在驗證真人身份的同時也能判別出其色盲類型，接著系統就可以依據判別出的使用者色盲類型，自動為他將接著觀看到的頁面套用合適他觀看的配色，在本次專案中，是以台灣鐵路網頁作為prototype來呈現本系統的效果。
-        .col-lg-8.col-md-12
-          img.pic.auto(src='./pic/pic_flow.jpg')
-
-      .section.section9.row.d-flex.justify-content-center
-        .col-lg-8.col-md-12
-          h2 Validating the designs
-          p 本研究透過易用性測試實驗與質性訪談，最後再藉由SUS系統易用性問卷，瞭解整體系統的效益。由於色盲使用者屬於易受傷害族群，因此本專案首先邀請一般正常視覺的使用者共計36位，請他們透過線上色盲模擬濾鏡，來模擬觀看色盲使用者的操作畫面。最後再邀請到3位真實的色盲使用者，來驗證真實使用者的使用經驗與感受。
-        .col-lg-8.col-md-12
-      img.full.auto(src='./pic/pic-05-11.png')
+          h2 後續優化與維護方向
+          p 與內部設計團隊以及開發團隊討論後，預期後續的優化方向包括：
+          h5 1. 元件共用平台建置：
+          p 評估導入 Zeroheight 或 Storybook，提升設計與開發雙方對元件規範的共識與可視性。
+          h5 2. 延伸Library至大型裝置應用：
+          p 以 Web 元件為基礎擴展至 Kiosk、Whiteboard 等場域，依據操作特性進行模組化與調整。
+          h5 3. 與前端協作建立元件開發流程：
+          p 包含 token 對應、命名規則、狀態邏輯等，確保設計標準能準確落實於產品開發中。
+          h5 4. 逐一將現有產品置換為新元件：
+          p 目前預計透過產品定期維護與功能迭代的時機點，將舊有樣式分批置換為新元件。
 
       .section.section10.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
-          h2 Results and takeaways
-          p 本設計榮獲2022【放視大賞—軟體內容組】最佳原創
-          h5 1. 本研究提出一套能夠提升色盲使用者網頁可及性的自動化系統
-          p 使用者對於本系統整體操作時的易用性主觀感受良好，他們認為本系統的操作步驟簡單，且幾乎是不需要有什麼學習性的，並且認為這是一套創新，但同時也很實用與值得信賴的系統。
+          h2 反思與挑戰
+          p (一段心得)
+          h5 1. 設計系統範疇界定困難：
+          p 原預期統整所有裝置樣式至單一系統，後因裝置特性差異大，調整策略為「分階段、分裝置」擴展。
           <br>
-          h5 2. 色盲使用者在使用本套系統下的網頁任務達成度相較於開啟一般網頁濾鏡提升了30%
-          p 本系統對於三種類型的色覺障礙使用者的網頁可及性的提升皆有幫助，其中對於全色盲使用者來說提升的效率最大，而對黃藍色盲使用者最小，但三種色覺障礙使用者透過本系統的介面皆能夠達到一樣好的任務完成度。
+          h5 2. 導入開發流程需雙向溝通：
+          p 設計系統導入的最大挑戰來自開發端的配合與信任建立。前期訪談工程師需求與使用習慣，讓設計系統更貼近實作需求，也增加他們導入的意願。
           <br>
-          h5 3. 色覺驗證碼的可行性 
-          p 對使用者而言，色覺驗證碼的型態他們並沒有察覺到太大異樣，他們主觀感受上認為色覺驗證碼就只是一種需要稍微再多花心力的普通驗證碼，並且是能夠接受在一般網頁中出現這種驗證碼樣式。
-          <br>
-          h5 4. 改善色盲使用者的網頁操作體驗
-          p 3位實際色盲使用者的操作結果與36位套用色盲模擬濾鏡的正常使用者的操作結果大致相符，網頁操作效率的部分皆有明顯提升。透過此系統的存在，除了能夠提升色盲使用者的網頁可及性，更可以照顧到他們的心理感受。
+
+          
          
 
 

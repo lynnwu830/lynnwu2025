@@ -240,7 +240,7 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   opacity: 1;
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work0 {
-  background-image: url(./colorfor/dist/pic/Colorfor_banner-03.png);
+  background-image: url(./pic/framework.png);
   background-size: cover;
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work0 a {
