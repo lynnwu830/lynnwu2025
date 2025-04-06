@@ -11,7 +11,12 @@ html(lang='en')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@100;300;400;500&display=swap')
     link(rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;700;900&display=swap")
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css")
-
+    script(type='text/javascript').
+      (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "qzv4xvm7lr");
     link(rel='stylesheet' href='./style.css')
  
   body
@@ -33,17 +38,17 @@ html(lang='en')
 
 
     .all.container-fluid
-      img.bg(src='./pic/noneimage.png')
+      img.bg(src='./pic/banner.png')
       .info.row
         .col-lg-6.col-md-12.col-sm-12
           h4 AiH Design System 
-          p Design Opt/ 
+          p Design System Planning & Execution
         .col.rwd
           h6 Role 
           p Project Owner
         .col.rwd
           h6 Tool/Method
-          p HTML/CSS/Javascript <br> Usability test <br> User interview
+          p Figma <br> Design token <br> UI documentation
         .col.rwd
           h6 Timeline 
           p 2024 Oct-present
@@ -51,7 +56,7 @@ html(lang='en')
       .section.section2.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
           h2 Overview
-          p 為了幫研華智慧醫療產品打造一致、可延展的設計語言，我們於2024年6月開始啟動設計系統建置，設計一套符合醫療場景需求、具彈性擴展性的 UI Design System。
+          p 為了幫研華智慧醫療產品打造一致、可延展的設計語言，我們於2024年6月開始啟動設計系統建置，目標為設計一套符合醫療場景需求、具彈性擴展性的 UI Design System。
           h5 ✅ 建立設計系統基礎視覺樣式，支援 RWD 與 Dark Mode
           h5 ✅ 完成27種基礎元件（含 Button、Input、Dialog 等）
           h5 ✅ 初版設計系統已導入2個新專案，提升設計與開發一致性
@@ -70,7 +75,7 @@ html(lang='en')
       .section.section4.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
           h2 建置歷程
-          p (一段歷程簡述)
+          p 為了建立一套實用且能長期維護的設計系統，我們從盤點現況開始，整理現有產品的元件與樣式，同時參考其他設計系統的架構邏輯，逐步建立出一套適合團隊的系統規則與視覺基礎。這個過程不只是釐清過去的使用方式，也是在為未來的擴充與共用做好準備。
 
       .section.section4.row.d-flex.justify-content-between
         .col-lg-12.col-md-12
@@ -82,7 +87,8 @@ html(lang='en')
           p  1. 參考多套主流設計系統（Material Design、Ant Design、IBM、Atlassian），從命名邏輯、分類方式、應用模式進行分析，萃取適合 AiH 系列產品的元件架構與命名邏輯。
           p  2. 因應產品橫跨不同尺寸裝置，評估後決定設計系統以「Web 裝置」為起點，後續再依此延伸 Kiosk、Whiteboard 等大型裝置。
         .col-lg-8.col-md-12
-          img.pic.auto(src="./pic/noneimage.png")
+          img.pic.auto(src="./pic/各家系統比較.png")
+          img.pic.auto(src="./pic/framework.png")
 
       .section.section6.row.d-flex.justify-content-between
         .col-lg-3.col-md-12
@@ -108,7 +114,7 @@ html(lang='en')
 
       .section.section6.row.d-flex.justify-content-between
         .col-lg-3.col-md-12
-          h5 Step 4 元件變體設計與使用規範
+          h5 Step 4 元件變體與規範設計
           p  1. 依據實際應用樣式設計元件變體，兼顧簡潔性與複用性。
           p  2. 參考主流設計系統變體邏輯，提升新元件延展與導入效率。
           p  3. 制定使用準則與限制，確保設計師間協作可保持一致性。
@@ -144,12 +150,12 @@ html(lang='en')
       .section.section10.row.d-flex.justify-content-center
         .col-lg-8.col-md-12
           h2 反思與挑戰
-          p (一段心得)
-          h5 1. 設計系統範疇界定困難：
-          p 原預期統整所有裝置樣式至單一系統，後因裝置特性差異大，調整策略為「分階段、分裝置」擴展。
+          p 本次建置設計系統的過程，對我來說不單是將元件整理好而已，而是一次從混亂中收斂出清晰規則的練習。從一開始的討論、整理、磨合，到設計系統逐漸落地成形，我漸漸體會到「對齊」不只是設計稿的一致，更是跨角色溝通與決策的過程。在有限的資源中建構這樣一個的系統，過程中有過各種嘗試與碰撞，以下是最令我印象深刻的兩個挑戰。
+          h5 1. 想建置一本包山包海跨裝置的設計系統：
+          p 一開始我們想著要將現有各個裝置的元件都收錄在這本設計系統當中，但經過幾次的討論與整併後，發現不同裝置的元件尺寸與應用方式差異太大，硬是要整併於一本只會讓設計系統過於龐大且不易使用，因此最終決定先從最基本通用型的網頁版裝置開始，之後其他裝置(Kiosk, Whiteboard)會再以目前的元件為基礎，發展出獨立的library。
           <br>
           h5 2. 導入開發流程需雙向溝通：
-          p 設計系統導入的最大挑戰來自開發端的配合與信任建立。前期訪談工程師需求與使用習慣，讓設計系統更貼近實作需求，也增加他們導入的意願。
+          p 最大的挑戰，也是最重要的步驟，就是說服前端工程師配合導入我們的設計系統，因此在設計系統開始建置之前，我們有先訪談前端開發團隊在查看設計稿、製作設計元件的方式，也事先研究過導入設計系統對於前端開發的一些好處，嘗試站在開發端的角度，說服他們導入設計系統。
           <br>
 
           
@@ -173,7 +179,7 @@ html(lang='en')
           .socialmedia.d-flex.justify-content-center
             a.i.fa-brands.fa-facebook-f(href="https://www.facebook.com/profile.php?id=100002447347560" target="_blank")
             a.i.fa-solid.fa-envelope(href="mailto:Lynnwu830@gmail.com")
-            a.i.fa-brands.fa-linkedin-in(href="https://www.linkedin.com/in/jia-ling-wu-350723192/" target="_blank")
+            a.i.fa-brands.fa-linkedin-in(href="https://www.linkedin.com/in/lynn-wu-350723192/" target="_blank")
           
 
 
