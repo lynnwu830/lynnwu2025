@@ -227,7 +227,7 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   top: -20px;
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card4:hover::before {
-  content: "Courtesy";
+  content: "iClinic Kiosk";
   color: white;
   padding: 36px;
   display: block;

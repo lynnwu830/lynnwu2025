@@ -172,6 +172,7 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   transform: rotate(180deg);
 }
 .all.container-fluid .footer .relativework .right {
+  opacity: 0;
   justify-content: right;
   margin-left: 200px;
 }
