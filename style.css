@@ -333,7 +333,7 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   transition-duration: all 2s;
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work4 {
-  background-image: url(./courtesy/dist/pic/courtesy_title.jpg);
+  background-image: url(./pic/ick.png);
   background-size: cover;
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work4 a {
