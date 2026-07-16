@@ -117,6 +117,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   opacity: 0;
   top: -20px;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card0:hover::before {
   content: "AiH Design System";
@@ -129,6 +131,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   top: 100px;
   opacity: 1;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card1::before {
   transition: all 0.4s;
@@ -143,6 +147,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   opacity: 0;
   top: -20px;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card1:hover::before {
   content: "ColorFor";
@@ -155,6 +161,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   top: 100px;
   opacity: 1;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card2::before {
   transition: all 0.4s;
@@ -170,6 +178,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   opacity: 0;
   top: -20px;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card2:hover::before {
   content: "UX Design for Taiwan Museum";
@@ -183,6 +193,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   top: 100px;
   opacity: 1;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card3::before {
   transition: all 0.4s;
@@ -198,6 +210,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   opacity: 0;
   top: -20px;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card3:hover::before {
   content: "Food to Food";
@@ -211,6 +225,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   top: 100px;
   opacity: 1;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card4::before {
   transition: all 0.4s;
@@ -226,6 +242,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   opacity: 0;
   top: -20px;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card4:hover::before {
   content: "iClinic Kiosk";
@@ -239,6 +257,8 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   top: 100px;
   opacity: 1;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card5::before {
   transition: all 0.4s;
