@@ -1,0 +1,24 @@
+{
+  "name": "lynnwu2025",
+  "version": "1.0.0",
+  "description": "npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm init -y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynnwu830/lynnwu2025.git"
+  },
+  "keywords": [
+    "npm",
+    "init",
+    "-y"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lynnwu830/lynnwu2025/issues"
+  },
+  "homepage": "https://github.com/lynnwu830/lynnwu2025#readme"
+}

@@ -102,6 +102,7 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   background-color: #aaa;
   margin-bottom: 8px;
   box-shadow: 2 2 #000000;
+  border-radius: 24px;
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card0::before {
   transition: all 0.4s;
@@ -238,6 +239,37 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   font-size: 2.8rem;
   top: 100px;
   opacity: 1;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card5::before {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  content: "";
+  color: white;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  opacity: 1;
+  font-size: 2.8rem;
+  opacity: 0;
+  top: -20px;
+  border-radius: 24px;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card5:hover::before {
+  content: "iClinic Kiosk";
+  color: white;
+  padding: 36px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0749ffe9;
+  opacity: 0.5;
+  font-size: 2.8rem;
+  top: 100px;
+  opacity: 1;
+  border-radius: 24px;
+
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work0 {
   background-image: url(./pic/framework.png);
