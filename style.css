@@ -277,7 +277,7 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   border-radius: 24px;
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work .card5:hover::before {
-  content: "iClinic Kiosk";
+  content: "Courtesy";
   color: white;
   padding: 36px;
   display: block;
@@ -404,6 +404,29 @@ nav .container-fluid ul.nav.navbar-nav a:hover {
   opacity: 0;
 }
 .home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work4:hover .info4 {
+  opacity: 1;
+  transition-duration: all 2s;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work5 {
+  background-image: url(courtesy拷貝/dist/pic/courtesy_title.jpg);
+  background-size: cover;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work5 a {
+  text-decoration: none;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work5 .info5 {
+  pointer-events: none;
+  width: 80%;
+  position: absolute;
+  left: 8%;
+  bottom: 10%;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  opacity: 0;
+}
+.home .container-fluid#home_sectiom .row.right .col-lg-6.offset-lg-6 .work5:hover .info5 {
   opacity: 1;
   transition-duration: all 2s;
 }
